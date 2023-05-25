@@ -1,0 +1,159 @@
+[
+    {
+      "name": "The Iliad",
+      "genre": "Epic Poetry",
+      "author": "Homer",
+      "author's bio": "Homer is a legendary ancient Greek epic poet, traditionally said to be the author of the epic poems The Iliad and The Odyssey.",
+      "status": "available",
+      "picture": "",
+      "pages": 683,
+      "language": "greek",
+      "synopsis": "The Iliad is an epic poem set during the Trojan War, which tells the story of the wrath of Achilles, one of the most famous warriors in Greek mythology.",
+      "LifeChanging": true,
+      "firstPublished": "8th century BC",
+      "characters": ["Achilles", "Hector", "Agamemnon", "Odysseus", "Patroclus", "Priam", "Briseis"]
+    },
+    {
+      "name": "The Divine Comedy",
+      "genre": "Epic Poetry",
+      "author": "Dante Alighieri",
+      "author's bio": "Dante Alighieri was an Italian poet, writer, and philosopher. He is best known for his epic poem The Divine Comedy.",
+      "status": "available",
+      "picture": "",
+      "pages": 798,
+      "language": "italian",
+      "synopsis": "The Divine Comedy is an epic poem that tells the story of Dante's journey through Hell, Purgatory, and Heaven. Along the way, he meets various characters and learns valuable lessons about life, death, and morality.",
+      "LifeChanging": true,
+      "firstPublished": "1308-1320",
+      "characters": ["Dante", "Virgil", "Beatrice", "Lucifer", "Pope Boniface VIII", "Cavalcante de' Cavalcanti"]
+    },
+    {
+      "name": "Sherlock Holmes",
+      "genre": "Mystery",
+      "author": "Sir Arthur Conan Doyle",
+      "author's bio": "Sir Arthur Conan Doyle was a British writer and physician, best known for creating the character of Sherlock Holmes.",
+      "status": "borrowed",
+      "picture": "",
+      "pages": 623,
+      "language": "english",
+      "synopsis": "Sherlock Holmes is a collection of 56 short stories and four novels featuring the famous detective Sherlock Holmes and his assistant Dr. John Watson. Together, they solve various mysteries and crimes in Victorian England.",
+      "LifeChanging": false,
+      "firstPublished": "1887-1927",
+      "characters": ["Sherlock Holmes", "Dr. John Watson", "Professor Moriarty", "Irene Adler", "Inspector Lestrade", "Mrs. Hudson"]
+    },
+    {
+      "title": "Quiet: The Power of Introverts in a World That Can't Stop Talking",
+      "genre": "Nonfiction",
+      "author": "Susan Cain",
+      "author's bio": "Susan Cain is an American writer, lecturer, and author of Quiet: The Power of Introverts in a World That Can't Stop Talking.",
+      "status": "kept",
+      "picture": "",
+      "pages": 352,
+      "synopsis": "Quiet is a nonfiction book that explores the power of introverts in a world that often favors extroverts. Cain argues that introverts have unique strengths and abilities that are often overlooked or undervalued.",
+      "LifeChanging": true,
+      "firstPublished": "2012",
+      "characters": [],
+      "language": "english"
+    },
+    
+        {
+          "title": "Alice in Wonderland",
+          "genre": "Children's literature",
+          "author": "Lewis Carroll",
+          "author's bio": "Lewis Carroll was the pen name of English writer Charles Lutwidge Dodgson, best known for his children's books, including Alice's Adventures in Wonderland.",
+          "status": "",
+          "picture": "",
+          "pages": 192,
+          "synopsis": "Alice's Adventures in Wonderland is a novel about a young girl named Alice who falls down a rabbit hole and enters a fantasy world filled with strange and wondrous creatures.",
+          "LifeChanging": false,
+          "firstPublished": "1865",
+          "characters": ["Alice", "White Rabbit", "Cheshire Cat", "Mad Hatter", "Queen of Hearts", "March Hare"]
+        },
+        {
+          "title": "The Bible",
+          "genre": "Religious text",
+          "author": "Various",
+          "author's bio": "The Bible is a collection of religious texts that were written over many centuries by various authors.",
+          "status": "",
+          "picture": "",
+          "pages": 1000+,
+          "synopsis": "The Bible is the primary religious text of Christianity, containing the Old and New Testaments. It tells the story of the creation of the world, the history of the Jewish people, the life and teachings of Jesus Christ, and the early history of the Christian church.",
+          "LifeChanging": true,
+          "ffirstPublished": "Between 1500 BC and 100 AD",
+          "characters": ["God", "Adam", "Eve", "Noah", "Abraham", "Moses", "Jesus", "Mary", "Paul", "Peter"]
+        },
+        {
+          "title": "1984",
+          "genre": "Dystopian fiction",
+          "author": "George Orwell",
+          "author's bio": "George Orwell was an English writer and journalist, best known for his novels Animal Farm and Nineteen Eighty-Four.",
+          "status": "Completed",
+          "picture": "",
+          "pages": 328,
+          "synopsis": "1984 is a dystopian novel set in a totalitarian society where individualism and independent thinking are outlawed. The story follows the life of Winston Smith, a low-ranking member of the ruling party, who begins to rebel against the system.",
+          "LifeChanging": true,
+          "firstPublished": "1949",
+          "characters": ["Winston Smith", "Julia", "O'Brien", "Big Brother", "Emmanuel Goldstein"]
+        },
+        {
+          "title": "Guns, Germs, and Steel",
+          "genre": "Nonfiction",
+          "author": "Jared Diamond",
+          "author's bio": "Jared Diamond is an American scientist and author, best known for his books on human evolution and environmental history.",
+          "status": "Completed",
+          "picture": "",
+          "pages": 496,
+          "language":"english",
+          "synopsis": "Guns, Germs, and Steel is a nonfiction book that explores why certain societies developed more rapidly than others. Diamond argues that environmental factors, such as geography and climate, played a significant role in shaping the course of human history.",
+          "LifeChanging": false,
+          "firstPublished": "1997",
+          "characters": []
+        }
+    ,
+    
+        {
+          "title": "Les Fleurs du Mal",
+          "genre": "Poetry",
+          "author": "Charles Baudelaire",
+          "author's bio": "Charles Baudelaire was a French poet and critic, best known for his collection of poems, Les Fleurs du Mal.",
+          "status": "borrowed",
+          "picture": "",
+          "pages": 305,
+          "language":"French",
+          "synopsis": "Les Fleurs du Mal is a collection of poems that explores themes of beauty, sensuality, and decay. It was highly controversial when it was first published in 1857, and Baudelaire was prosecuted for obscenity.",
+          "LifeChanging": true,
+          "firstPublished": "1857",
+          "characters": []
+        },
+        {
+          "title": "Les Misérables",
+          "genre": "Historical fiction",
+          "author": "Victor Hugo",
+          "author's bio": "Victor Hugo was a French poet, novelist, and dramatist, best known for his novels Les Misérables and Notre-Dame de Paris.",
+          "status": "kept",
+          "photoURL": "https://m.media-amazon.com/images/I/914ou95ewEL._AC_UF1000,1000_QL80_.jpg",
+          "pages": 1463,
+          "language":"French",
+          "synopsis": "Les Misérables follows the lives of several characters in 19th-century France, including ex-convict Jean Valjean, his pursuer Inspector Javert, and the young girl Cosette, who Valjean adopts as his own daughter.",
+          "LifeChanging": true,
+          "firstPublished": "1862",
+          "characters": ["Jean Valjean", "Inspector Javert", "Cosette", "Marius Pontmercy", "Fantine"]
+
+        },
+        {
+          "title": "The Three Musketeers",
+          "genre": "Historical fiction",
+          "author": "Alexandre Dumas",
+          "author's bio": "Alexandre Dumas was a French writer and playwright, best known for his novels The Three Musketeers and The Count of Monte Cristo.",
+          "status": "available",
+          "photoURL": "https://m.media-amazon.com/images/I/71YKPX-w-UL._AC_UF1000,1000_QL80_.jpg",
+          "pages": 704,
+          "language":"French",
+          "synopsis": "The Three Musketeers follows the adventures of three musketeers, Athos, Porthos, and Aramis, and their young, brave companion, D'Artagnan, as they fight to protect the honor of their queen and their country.",
+          "LifeChanging": false,
+          "firstPublished": "1844",
+          "characters": ["D'Artagnan", "Athos", "Porthos", "Aramis", "Cardinal Richelieu", "Milady de Winter"]
+        }
+      ]
+      
+      

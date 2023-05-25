@@ -1,0 +1,83 @@
+.div-profile-page {
+  margin: 0 auto;
+  margin-top: 2rem;
+  width: 80%;
+  margin-bottom: 2rem;
+}
+
+.profile-form {
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.249);
+  box-shadow: rgba(94, 56, 2, 0.2) 2px 8px 8px -5px;
+  padding: 2rem;
+}
+
+
+.profile-form button {
+  margin-top: 2rem;
+}
+
+.profile-form input,
+#bio {
+  width: 350px;
+  height: 1.8rem;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #ee5a24;
+  resize: none;
+  color: 0.8rem;
+  font-size: 0.8rem;
+}
+
+.form-row p {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+
+.form-row input:focus,
+#bio:focus {
+  border-bottom: 2px solid #ee5a24;
+}
+
+.form-row input[type="submit"] {
+  margin-top: 2rem;
+
+}
+
+.form-row input {
+
+  font-size: 0.8rem;
+}
+
+
+.form-row svg {
+  font-size: 1.3rem;
+  color: #09223b;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.text-sm {
+  font-size: 0.8rem;
+}
+
+.opacity-row {
+  opacity: 0.8;
+}
+
+input::file-selector-button {
+  padding: 0.5rem;
+  background-color: white;
+  border: 1px grey solid;
+  outline: none;
+  border-radius: 5px;
+}
+
+
+@media (max-width: 728px) {
+  .div-profile-page {
+    width: 90%;
+  }
+}

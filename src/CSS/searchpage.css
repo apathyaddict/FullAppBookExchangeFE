@@ -1,0 +1,257 @@
+.main-content-search {
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   flex-direction: column;
+}
+
+.wrapper {
+   width: 100%;
+   max-width: 38.25rem;
+   margin: 5rem auto;
+   padding: 1rem
+}
+
+.label {
+   font-size: .625rem;
+   font-weight: 400;
+   text-transform: uppercase;
+   letter-spacing: +1.3px;
+   margin-bottom: 1rem;
+   color: #ee5a24;
+}
+
+.searchBar {
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+
+#searchQueryInput2 {
+   width: 100%;
+   height: 2.8rem;
+   background: #f5f5f5;
+   outline: none;
+   border: none;
+   border-radius: 1.625rem;
+   padding: 0 3.5rem 0 1.5rem;
+   font-size: 0.8rem;
+}
+
+#searchQuerySubmit2 {
+   width: 3.5rem;
+   height: 3.2rem;
+   margin-left: -3.5rem;
+   background: none;
+   border: none;
+   outline: none;
+}
+
+#searchQuerySubmit:hover {
+   cursor: pointer;
+}
+
+#loupe {
+   position: relative;
+   top: 0.2rem;
+   opacity: 50%;
+   cursor: pointer;
+}
+
+.result-grid {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+   gap: 1.5rem;
+   justify-content: center;
+   margin: 0 4rem;
+}
+
+.result-card {
+   border-radius: 10px;
+   background-color: rgba(255, 255, 255, 0.374);
+   box-shadow: 0 2px 4px rgba(53, 27, 3, 0.2);
+   padding: 1rem;
+   text-align: center;
+   min-width: 250px;
+   max-width: 300px;
+   height: 100%;
+   display: flex;
+   justify-content: space-between;
+   flex-direction: column;
+}
+
+.result-card img {
+   max-width: 100%;
+   border-radius: 10px;
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+   max-width: 200px;
+   min-height: 300px;
+   object-fit: cover;
+
+}
+
+.result-card h3 {
+
+   margin-top: 1rem;
+   margin-bottom: 0.5rem;
+}
+
+.result-card p {
+   margin-bottom: 0.5rem;
+   text-transform: uppercase;
+   font-size: 0.8rem;
+}
+
+.card-bottom p {
+   background-color: #93979942;
+   margin-top: 0.5rem;
+   border-radius: 5px;
+   padding: 0.3rem 0;
+}
+
+.div-select-search {
+   padding: 1rem;
+   display: flex;
+   align-content: center;
+   justify-content: space-between;
+}
+
+.search-type {
+   font-size: 0.8rem;
+}
+
+select {
+
+   background-color: transparent;
+   border: none;
+   border-bottom: 1px solid #ee5a24;
+   padding: 0 1rem 0 1rem;
+   margin: 0;
+
+   font-family: inherit;
+   font-size: inherit;
+   cursor: inherit;
+   line-height: inherit;
+}
+
+.advanced-search {
+   margin-left: 1rem;
+
+}
+
+
+.advanced-search ul li {
+   padding: 0.5rem 0 0 0;
+
+}
+
+.search-text-adv {
+   font-size: 0.8rem;
+   padding-right: 10px;
+   width: 120px;
+   /* Adjust the width as needed */
+   display: inline-block;
+
+
+}
+
+.input-field {
+   background-color: transparent;
+   height: 25px;
+   border: none;
+   outline: none;
+   border-bottom: #ee5a24 1px solid;
+}
+
+.input-field:focus,
+#synopsis:focus,
+#authorsbio:focus,
+#characters:focus {
+   border-bottom: 2px solid #ee5a24;
+}
+
+.div-result-grid {
+   margin-bottom: 2rem;
+}
+
+.btn-seemore {
+   background-color: transparent;
+
+   border: 0;
+   border-radius: 5px;
+   color: #9599E2;
+   cursor: pointer;
+   display: inline-block;
+   font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+   font-size: 0.8rem;
+   font-weight: 600;
+   line-height: 2.5;
+   outline: 1px linear-gradient(9deg, #8BC6EC 0%, #9599E2 100%);
+
+   padding: 0 1rem;
+   text-align: center;
+   text-decoration: none;
+   transition: box-shadow .2s ease-in-out;
+   user-select: none;
+   -webkit-user-select: none;
+   touch-action: manipulation;
+   white-space: nowrap;
+   text-transform: uppercase;
+}
+
+.btn-seemore:not([disabled]):focus {
+   background-image: linear-gradient(9deg, #8BC6EC 0%, #9599E2 100%);
+
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.btn-seemore:not([disabled]):hover {
+   background-image: linear-gradient(9deg, #8BC6EC 0%, #9599E2 100%);
+   color: white;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.error-div {
+   margin: 0 auto;
+}
+
+
+
+@media (max-width: 728px) {
+
+   .main-content-search {
+      flex-direction: column;
+      width: 100%;
+   }
+
+   .wrapper {
+      margin: 1rem;
+   }
+
+   .result-grid {
+
+      margin: 0 auto;
+      align-content: center;
+      width: 90%;
+   }
+
+   #searchQueryInput2 {
+      width: 90%;
+   }
+
+   .result-card {
+      width: 100%;
+
+   }
+
+   .result-card div img {
+      height: 150px;
+      width: 100%;
+      object-fit: cover;
+   }
+
+
+}

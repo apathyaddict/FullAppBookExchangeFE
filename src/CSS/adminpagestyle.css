@@ -1,0 +1,246 @@
+.main-profile-div {
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+    flex-direction: row;
+    gap: 2rem;
+
+}
+
+.profile-row-div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.profile-column-div {
+    padding: 1rem;
+    width: 100%;
+
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.249);
+    box-shadow: rgba(94, 56, 2, 0.2) 2px 8px 8px -5px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    gap: 1rem;
+    max-height: 500px;
+
+}
+
+.tagline button {
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    color: #ee5a24;
+    font-weight: 500;
+    letter-spacing: -0.05rem;
+    background-color: transparent;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 1rem;
+}
+
+.tagline button:hover {
+    font-weight: 700;
+}
+
+.tagline button:active {
+    font-weight: 600;
+}
+
+
+.add-book-div {
+
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.249);
+    box-shadow: rgba(94, 56, 2, 0.2) 2px 8px 8px -5px;
+
+}
+
+.addbook-form {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+.addbook-form button {
+    margin-left: 1rem;
+
+}
+
+.div-add-book-ul {
+
+    margin: 0rem 1rem 2rem 1rem;
+
+}
+
+.div-add-book-ul li p {
+    margin-right: 2rem;
+    font-size: 0.8rem;
+    margin-bottom: 0.3rem;
+    font-weight: 600;
+
+}
+
+.div-add-book-ul li {
+    display: block;
+    margin-bottom: 1rem;
+
+}
+
+.div-add-book-ul li select {
+    width: 100%;
+    font-size: 0.8rem;
+
+}
+
+.div-add-book-ul li .input-field {
+
+    width: 100%;
+    font-size: 0.8rem;
+}
+
+.div-add-book-ul li .input-field.error {
+
+    border: 1px solid red;
+
+}
+
+.div-error {
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.421);
+    color: red;
+    font-size: 0.8rem;
+    margin: 1rem;
+}
+
+#authorsbio,
+#synopsis,
+#characters {
+    background-color: transparent;
+    resize: none;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ee5a24;
+    width: 100%;
+    font-size: 0.8rem;
+}
+
+
+.span-checkbox {
+    font-size: 0.8rem;
+    margin-right: 0.5rem;
+}
+
+.titlebox {
+    margin-top: 0;
+}
+
+.addbook-form {
+    padding: 1 1rem;
+}
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.books-db {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+  
+    gap: 0.5rem;
+    width: 100%;
+    overflow-y: scroll;
+    padding: 1rem 0;
+}
+
+.books-db li {
+    border-radius: 5px;
+    padding: 0.5rem;
+    list-style-type: none;
+    background-color: rgba(253, 245, 220, 0.801);
+    box-shadow: rgba(94, 56, 2, 0.2) 2px 8px 8px -5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+
+}
+
+.books-db li p {
+
+    font-size: 0.8rem;
+    display: inline;
+    padding: 0 1rem;
+    border-right: 1px solid lightgray;
+}
+
+
+.books-db li span {
+    font-weight: 600;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    padding: 0 1rem;
+    display: inline;
+
+
+}
+
+
+.edit-button {
+    padding: 0.3rem 1rem;
+    margin-left: 0.5rem;
+    outline: none;
+    border: 1px solid #ee5a24;
+    border-radius: 5px;
+    background-color: transparent;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #ee5a24;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.edit-button:hover {
+    background-color: #ee5a24;
+    color: white;
+}
+
+.div-form-btn{
+    align-self: end;
+margin-right: 2rem;
+}
+
+
+@media (max-width: 728px) {
+    .main-profile-div{
+        flex-direction: column;
+    }
+
+    .profile-row-div{
+        width:100%;
+    }
+}
