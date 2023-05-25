@@ -13,7 +13,7 @@ export const useLogin = () => {
     setIsLoading(true);
     setError(null);
 
-    await axios.post('http://localhost:8080/users/login', {
+    await axios.post(`${process.env.REACT_APP_SERVER_URL}/users/login`, {
       email, password
     })
     .then(function (response) {

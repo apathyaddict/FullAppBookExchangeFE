@@ -14,7 +14,7 @@ export const useSignup = () => {
     setErrorSignUp(null);
 
     await axios
-      .post("http://localhost:8080/users/signup", {
+      .post(`${process.env.REACT_APP_SERVER_URL}/users/signup`, {
         email,
         password,
         firstName,

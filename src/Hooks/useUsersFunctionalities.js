@@ -8,7 +8,7 @@ export const useUsersFunctionalities = () => {
   const updateUser = async (userId, updatedData) => {
     try {
       const response = await axios.patch(
-        `http://localhost:8080/users/${userId}`,
+        `${process.env.REACT_APP_SERVER_URL}/users/${userId}`,
         updatedData,
         {
           headers: {
@@ -32,7 +32,7 @@ export const useUsersFunctionalities = () => {
 
     try {
       const response = await axios.patch(
-        `http://localhost:8080/users/${userId}`,
+        `${process.env.REACT_APP_SERVER_URL}/users/${userId}`,
         updatedData,
         {
           headers: {

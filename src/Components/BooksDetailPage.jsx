@@ -73,7 +73,7 @@ const BooksDetailPage = () => {
 
       try {
         const response = await axios.put(
-          `http://localhost:8080/users/${currentUser._id}/save`,
+          `${process.env.REACT_APP_SERVER_URL}/users/${currentUser._id}/save`,
           updatedData,
           {
             headers: {
@@ -98,7 +98,7 @@ const BooksDetailPage = () => {
         };
 
         const response = await axios.put(
-          `http://localhost:8080/users/${currentUser._id}/save`,
+          `${process.env.REACT_APP_SERVER_URL}/users/${currentUser._id}/save`,
           updatedData,
           {
             headers: {

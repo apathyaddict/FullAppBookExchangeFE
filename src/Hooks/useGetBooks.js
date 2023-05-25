@@ -7,7 +7,7 @@ export const useGetBooks = () => {
   const getBookbyId = async (bookId) => {
     try {
       const response = await axios.get(
-        `http://localhost:8080/books/${bookId}`,
+        `${process.env.REACT_APP_SERVER_URL}/books/${bookId}`,
         {}
       );
       const book = response.data;
@@ -23,7 +23,7 @@ export const useGetBooks = () => {
   const updateBook = async (bookId, updatedData) => {
     try {
       const response = await axios.patch(
-        `http://localhost:8080/books/${bookId}`,
+        `${process.env.REACT_APP_SERVER_URL}/books/${bookId}`,
         updatedData,
         {
           headers: {
@@ -47,7 +47,7 @@ export const useGetBooks = () => {
   const updateBookJson = async (bookId, updatedData) => {
     try {
       const response = await axios.patch(
-        `http://localhost:8080/books/${bookId}`,
+        `${process.env.REACT_APP_SERVER_URL}/books/${bookId}`,
         updatedData,
         {
           headers: {

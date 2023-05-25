@@ -34,7 +34,7 @@ const AdminPage = ({ addBook, errorMessage, allBooks, setAllBooks }) => {
 
   const fetchUsers = async () => {
     try {
-      const res = await axios.get("http://localhost:8080/users", {
+      const res = await axios.get(`${process.env.REACT_APP_SERVER_URL}/users`, {
         headers: {
           Authorization: `bearer ${user.token}`,
         },
@@ -47,7 +47,7 @@ const AdminPage = ({ addBook, errorMessage, allBooks, setAllBooks }) => {
 
   const fetchBooks = async () => {
     try {
-      const res = await axios.get("http://localhost:8080/books");
+      const res = await axios.get(`${process.env.REACT_APP_SERVER_URL}/books`);
       setAllBooks(res.data);
     } catch (err) {
       console.log(err);

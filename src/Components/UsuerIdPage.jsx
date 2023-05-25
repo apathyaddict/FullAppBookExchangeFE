@@ -18,7 +18,7 @@ const UsuerIdPage = () => {
 
   const fetchUserData = async () => {
     try {
-      const response = await axios.get(`http://localhost:8080/users/${id}`, {
+      const response = await axios.get(`${process.env.REACT_APP_SERVER_URL}/users/${id}`, {
         headers: {
           Authorization: `barer ${user.token}`,
         },

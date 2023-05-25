@@ -71,12 +71,12 @@ function App() {
             author: author,
           },
         };
-        const res = await axios.get("http://localhost:8080/books", params);
+        const res = await axios.get(`${process.env.REACT_APP_SERVER_URL}/books`, params);
 
         setIsLoading(false);
         setBooks(res.data);
       } else {
-        const res = await axios.get("http://localhost:8080/books");
+        const res = await axios.get(`${process.env.REACT_APP_SERVER_URL}/books`);
         setIsLoading(false);
         setBooks(res.data);
       }
@@ -96,7 +96,7 @@ function App() {
 
     //TODO: add loading
     axios
-      .post("http://localhost:8080/books", newBook, {
+      .post(`${process.env.REACT_APP_SERVER_URL}/books`, newBook, {
         headers: {
           Authorization: `token ${user.token}`,
           "Content-Type": "multipart/form-data",

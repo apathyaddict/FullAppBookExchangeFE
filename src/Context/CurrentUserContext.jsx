@@ -17,7 +17,7 @@ export function CurrentUserProvider ({ children }) {
   const getCurrent = async () =>{
     try{
 
-    const res = await axios.get(`http://localhost:8080/users/${user._id}`, {
+    const res = await axios.get(`${process.env.REACT_APP_SERVER_URL}/users/${user._id}`, {
       headers: {
         Authorization: `token ${user.token}`,
       },
