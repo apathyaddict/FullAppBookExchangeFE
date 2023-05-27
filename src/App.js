@@ -145,7 +145,7 @@ function App() {
             path="/profile"
             element={user ? <ProfilePage /> : <Navigate to="/" />}
           />
-          <Route path="/book/:id" element={<BooksDetailPage />} />
+          <Route path="/books/:id" element={<BooksDetailPage />} />
           <Route
             path="/users/:id"
             element={user ? <UsuerIdPage /> : <Navigate to="/" />}
