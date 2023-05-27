@@ -21,7 +21,7 @@ const Book = ({ book }) => {
 
         <button
           className="btn-seemore"
-          onClick={() => navigate(`/book/${book._id}`)}
+          onClick={() => navigate(`/books/${book._id}`)}
         >
           See more
         </button>
