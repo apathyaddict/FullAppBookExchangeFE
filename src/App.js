@@ -5,7 +5,7 @@ import axios from "axios";
 import NavBar from "./Components/NavBar";
 import { useUsersContext } from "./Hooks/useUsersContext";
 import HomePage from "./Pages/HomePage.jsx";
-import { BrowserRouter, Routes, Route, Navigate, useNavigate } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import SearchPage from "./Pages/SearchPage";
 import MybooksPage from "./Pages/MybooksPage";
 import ProfilePage from "./Pages/ProfilePage";
@@ -21,7 +21,7 @@ function App() {
   const { setBodyToast, setShowToast, show, setShow, setIsLoading } =
     useContext(UtilityContext);
   const { logout } = useLogout();
-  const navigate = useNavigate();
+
   const { currentUser } = useContext(CurrentUserContext);
   const [allBooks, setAllBooks] = useState([]);
 
@@ -33,8 +33,7 @@ function App() {
 
   const handleLogoutClick = () => {
     logout();
-    navigate('/')
-    
+     
   };
 
   const [books, setBooks] = useState([]);
