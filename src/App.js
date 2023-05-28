@@ -48,7 +48,7 @@ function App() {
     author
   ) => {
     setErrorMessage(null);
-
+setBooks([])
     try {
       setIsLoading(true);
       let params = {};
@@ -79,6 +79,7 @@ function App() {
         const res = await axios.get(`${process.env.REACT_APP_SERVER_URL}/books`);
         setIsLoading(false);
         setBooks(res.data);
+        return res.data
       }
     } catch (err) {
       if (err.response) {
