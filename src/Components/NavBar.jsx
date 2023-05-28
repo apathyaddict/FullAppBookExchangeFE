@@ -81,12 +81,12 @@ const NavBar = ({
         <div className="navbar-right flexclassrow">
           {!user ? (
             <button className="btn-login" onClick={openModal}>
-              {" "}
+              
               Log In
             </button>
           ) : (
             <button className="btn-login" onClick={handleLogoutClick}>
-              {" "}
+              
               Log Out
             </button>
           )}

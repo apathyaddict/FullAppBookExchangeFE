@@ -34,6 +34,8 @@ function App() {
 
   const handleLogoutClick = () => {
     logout();
+    return <Navigate to="/" replace />;
+    
   };
 
   const [books, setBooks] = useState([]);
@@ -48,7 +50,7 @@ function App() {
     author
   ) => {
     setErrorMessage(null);
-setBooks([])
+    setBooks([])
     try {
       setIsLoading(true);
       let params = {};
